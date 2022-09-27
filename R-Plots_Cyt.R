@@ -31,7 +31,7 @@ Cytosol2 <- rename(Cytosol, Timepoint=Metadata_Time_formatted, R=value, Compartm
 HighGlucose <- filter(Cytosol2, Sample == "LCIS+HighGlucose+DMSO" | Sample == "LCIS+HighGlucose+G6PDi[10uM]" | Sample == "LCIS+HighGlucose+G6PDi[50uM]")
 
 
-#### LCIS + High Glucose + G6PDi 
+#### Figure 5e: Cytosol of HeLa cells. High Glucose + G6PDi 
 
 HighGlucose2 <- HighGlucose %>% filter(`Time (min)`>= -60)
 write_xlsx(HighGlucose2, "Cytosol_HighGlucose1.xlsx")
