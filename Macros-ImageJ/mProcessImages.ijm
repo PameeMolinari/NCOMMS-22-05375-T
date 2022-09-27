@@ -1,6 +1,6 @@
-macro "mProcesarImagenes" {
-argumentos = getArgument();
-args = split(argumentos,"|");
+macro "mProcessImages" {
+arguments = getArgument();
+args = split(arguments,"|");
 id = args[0];
 workingDir = args[1];
 macroDir = args[2];
@@ -11,35 +11,35 @@ tiffDir = workingDir + "\\" + "Tiff";
 File.makeDirectory(tiffDir);
 tiffName = tiffDir+ "\\" + baseName;
 saveAs("tif",tiffName);
-imagenRDir = workingDir + "\\" + "R_Images";
-File.makeDirectory(imagenRDir);
-imagenRName = imagenRDir+ "\\" + baseName;
+imageRDir = workingDir + "\\" + "R_Images";
+File.makeDirectory(imageRDir);
+imageRName = imageRDir+ "\\" + baseName;
 roiDir = workingDir + "\\" + "ROISets";   
 File.makeDirectory(roiDir);
 roisetName = roiDir+ "\\" + baseName;
 resultsDir = workingDir + "\\" + "Results_csv";
 File.makeDirectory(resultsDir);
 resultsName = resultsDir+ "\\" + baseName;
-argumentos = tiffDir + "|" + macroDir;
-runMacro(macroDir + "\\" + "mprocesarImgActual.ijm", argumentos);
+arguments = tiffDir + "|" + macroDir;
+runMacro(macroDir + "\\" + "mProcessCurrentImg.ijm", arguments);
 run("Image Expression Parser");
 waitForUser("Please select A and B Images to Parse. Click OK when done");
 keep_going = true;
 x = 0;
 while(keep_going){
-     ventanaR = "Image "+x;
-     if(isOpen(ventanaR)){
+     windowR = "Image "+x;
+     if(isOpen(windowR)){
         keep_going = false;
-        selectWindow(ventanaR);       
+        selectWindow(windowR);       
      }
      if(x == 100){
        keep_going = false;
-       print("ERROR en imagen: "+name);
+       print("ERROR in image: "+name);
      }
      x++;     
 }
 run("Clear Results");
-runMacro(macroDir + "\\" + "mfiresave.ijm" , imagenRName);
+runMacro(macroDir + "\\" + "mfiresave.ijm" , imageRName);
 runMacro(macroDir + "\\" + "mtotalfield.ijm");
 runMacro(macroDir + "\\" + "mROIcells.ijm" , roisetName);
 runMacro(macroDir + "\\" + "msaveResults.ijm" , resultsName);
