@@ -1,0 +1,151 @@
+Key	Value
+CellProfiler_Version	4.2.4
+ChannelType_GFP	Grayscale
+ChannelType_Sensor	Grayscale
+ImageSet_Zip_Dictionary	b'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48T01FIHhtbG5zPSJodHRwOi8vd3d3Lm9wZW5taWNyb3Njb3B5Lm9yZy9TY2hlbWFzL09NRS8yMDE2LTA2Ij48SW1hZ2UgSUQ9IlNlbnNvciI+PFBpeGVscyBEaW1lbnNpb25PcmRlcj0iWFlDWlQiIElEPSJQaXhlbHM6U2Vuc29yIiBTaXplVD0iMSIgU2l6ZVg9IjEiIFNpemVZPSIxIj48VGlmZkRhdGEgRmlyc3RDPSIwIiBGaXJzdFQ9IjAiIEZpcnN0Wj0iMCIgSUZEPSIwIiBQbGFuZUNvdW50PSIxIj48VVVJRCBGaWxlTmFtZT0iZmlsZTovLy9DOi9Vc2Vycy9QYW1lbGEvT25lRHJpdmUvRXNjcml0b3Jpby9TYW1wbGVfQ1AvSW1hZ2VzL3IwMmMwMWYwMXAwMS1jaDFzazFmazFmbDEudGlmZiIvPjwvVGlmZkRhdGE+PFBsYW5lIFRoZUM9IjAiIFRoZVQ9IjAiIFRoZVo9IjAiLz48L1BpeGVscz48L0ltYWdlPjxJbWFnZSBJRD0iR0ZQIj48UGl4ZWxzIERpbWVuc2lvbk9yZGVyPSJYWUNaVCIgSUQ9IlBpeGVsczpHRlAiIFNpemVUPSIxIiBTaXplWD0iMSIgU2l6ZVk9IjEiPjxUaWZmRGF0YSBGaXJzdEM9IjAiIEZpcnN0VD0iMCIgRmlyc3RaPSIwIiBJRkQ9IjAiIFBsYW5lQ291bnQ9IjEiPjxVVUlEIEZpbGVOYW1lPSJmaWxlOi8vL0M6L1VzZXJzL1BhbWVsYS9PbmVEcml2ZS9Fc2NyaXRvcmlvL1NhbXBsZV9DUC9JbWFnZXMvcjAyYzAxZjBwMDEvTyIgU2l6ZVQ9IjEiIFNpemVYPSIxIiBTaXplWT0iMSI+PFRpZmZEYXRhIEZpcnN0Qz0iMCIgRmlyc3RUPSIwIiBGaXJzdFo9IjAiIElGRD0iMCIgUGxhbmVDb3VudD0iMSI+PFVVSUQgRmlsZU5hbWU9ImZpbGU6Ly8vQzovVXNlcnMvUGFtZWxhL09uZURyaXZlL0VzY3JpdG9yaW8vU2FtcGxlX0NQL0ltYWdlcy9yMDJjMDFmMDJwMDEtY2h4bWxzaW9uMS4wImVuY29GP09NRW5zOi93dy5vcGlzY2dtcy9PTUUyLTYiPjxJbWFnZSBJb3I+PFBpeGVscyBlbnNkZXJUIiBJU2Vuc29yIiBTaXplVD0iMSIgU2l6ZVg9IjEiIFNpemVZPSIxIj48VGlmZkRhdGEgRmlyc3RDPSIwIiBGaXJzdFQ9IjAiIEZpcnN0Wj0iMCIgSUZEPSIwIiBQbGFuZUNvdW50PSIxIj48VVVJRCBGaWxlTmFtZT0iZmlsZTovLy9DOi9Vc2Vycy9QYW1lbGEvT25lRHJpdmUvRXNjcml0b3Jpby9TYW1wbGVfQ1AvSW1hZ2VzL3IwMmMwMWYwM3AwMS1jaGsxZmlmZj48UGxhbmUgVGhlQz0iMCIgVGhlVD0iMCJaPSIwIi8+PC94PjwvSW1hZ2U+PEltYWdlIElEPSJQIj48UGl4ZWxzIERpbWVuc2lvbk9yZGVyPSJYWUNaVCIgSUQ9IlBpeGVsczpHRlAiIFNpemU9IjEiIFNpemVYPSIxIlk9IjEiPjxUaWZmRGF0YSBGaXJzdEM9IjAiIEZpcnN0VD0iMCIgWj0iMCJEPSJ0PSIxVUlEIEZpYW1laWxlOi8vQzplcnMvUGFtZWxhdmVjcnJpby9TbWEwMmMxZg=='
+Metadata_Tags	"[""ImageNumber""]"
+Pipeline_Pipeline	"CellProfiler Pipeline: http://www.cellprofiler.org
+Version:5
+DateRevision:424
+GitHash:
+ModuleCount:8
+HasImagePlaneDetails:False
+
+Images:[module_num:1|svn_version:'Unknown'|variable_revision_number:2|show_window:False|notes:['To begin creating your project, use the Images module to compile a list of files and/or folders that you want to analyze. You can also specify a set of rules to include only the desired files in your selected folders.']|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    :
+    Filter images?:Images only
+    Select the rule criteria:and (extension does isimage) (directory doesnot containregexp ""[\\\\/]\\."")
+
+Metadata:[module_num:2|svn_version:'Unknown'|variable_revision_number:6|show_window:False|notes:['The Metadata module optionally allows you to extract information describing your images (i.e, metadata) which will be stored along with your measurements. This information can be contained in the file name and/or location, or in an external file.']|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Extract metadata?:Yes
+    Metadata data type:Text
+    Metadata types:{}
+    Extraction method count:1
+    Metadata extraction method:Extract from file/folder names
+    Metadata source:File name
+    Regular expression to extract from file name:^r(?P<WellRow>\d{2})c(?P<WellColumn>\d{2})f(?P<Site>\d{2})p(?P<Plane>\d{2})-ch(?P<ChannelNumber>\d)sk(?P<Time>\d{1,2})
+    Regular expression to extract from folder name:(?P<Date>[0-9]{4}_[0-9]{2}_[0-9]{2})$
+    Extract metadata from:All images
+    Select the filtering criteria:and (file does contain """")
+    Metadata file location:Elsewhere...|
+    Match file and image metadata:[]
+    Use case insensitive matching?:No
+    Metadata file name:None
+    Does cached metadata exist?:No
+
+NamesAndTypes:[module_num:3|svn_version:'Unknown'|variable_revision_number:8|show_window:False|notes:['The NamesAndTypes module allows you to assign a meaningful name to each image by which other modules will refer to it.']|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Assign a name to:Images matching rules
+    Select the image type:Grayscale image
+    Name to assign these images:DNA
+    Match metadata:[]
+    Image set matching method:Order
+    Set intensity range from:Image metadata
+    Assignments count:2
+    Single images count:0
+    Maximum intensity:255.0
+    Process as 3D?:No
+    Relative pixel spacing in X:1.0
+    Relative pixel spacing in Y:1.0
+    Relative pixel spacing in Z:1.0
+    Select the rule criteria:and (metadata does ChannelNumber ""1"")
+    Name to assign these images:Sensor
+    Name to assign these objects:Cell
+    Select the image type:Grayscale image
+    Set intensity range from:Image metadata
+    Maximum intensity:255.0
+    Select the rule criteria:and (metadata does ChannelNumber ""2"")
+    Name to assign these images:GFP
+    Name to assign these objects:Nucleus
+    Select the image type:Grayscale image
+    Set intensity range from:Image metadata
+    Maximum intensity:255.0
+
+Groups:[module_num:4|svn_version:'Unknown'|variable_revision_number:2|show_window:False|notes:['The Groups module optionally allows you to split your list of images into image subsets (groups) which will be processed independently of each other. Examples of groupings include screening batches, microtiter plates, time-lapse movies, etc.']|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Do you want to group your images?:No
+    grouping metadata count:1
+    Metadata category:None
+
+ImageMath:[module_num:5|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Operation:Add
+    Raise the power of the result by:1.0
+    Multiply the result by:1.0
+    Add to result:0.0
+    Set values less than 0 equal to 0?:Yes
+    Set values greater than 1 equal to 1?:Yes
+    Replace invalid values with 0?:Yes
+    Ignore the image masks?:No
+    Name the output image:ChannelsCombined
+    Image or measurement?:Image
+    Select the first image:GFP
+    Multiply the first image by:1.0
+    Measurement:
+    Image or measurement?:Image
+    Select the second image:Sensor
+    Multiply the second image by:1.0
+    Measurement:
+
+IdentifyPrimaryObjects:[module_num:6|svn_version:'Unknown'|variable_revision_number:15|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:ChannelsCombined
+    Name the primary objects to be identified:GFP_cells
+    Typical diameter of objects, in pixel units (Min,Max):70,400
+    Discard objects outside the diameter range?:Yes
+    Discard objects touching the border of the image?:Yes
+    Method to distinguish clumped objects:Intensity
+    Method to draw dividing lines between clumped objects:Intensity
+    Size of smoothing filter:10
+    Suppress local maxima that are closer than this minimum allowed distance:200
+    Speed up by using lower-resolution image to find local maxima?:No
+    Fill holes in identified objects?:After both thresholding and declumping
+    Automatically calculate size of smoothing filter for declumping?:Yes
+    Automatically calculate minimum allowed distance between local maxima?:No
+    Handling of objects if excessive number of objects identified:Continue
+    Maximum number of objects:500
+    Use advanced settings?:Yes
+    Threshold setting version:12
+    Threshold strategy:Adaptive
+    Thresholding method:Minimum Cross-Entropy
+    Threshold smoothing scale:1
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.08,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Minimum Cross-Entropy
+
+MeasureObjectIntensity:[module_num:7|svn_version:'Unknown'|variable_revision_number:4|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select images to measure:GFP, Sensor
+    Select objects to measure:GFP_cells
+
+ExportToSpreadsheet:[module_num:8|svn_version:'Unknown'|variable_revision_number:13|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the column delimiter:Tab
+    Add image metadata columns to your object data file?:Yes
+    Add image file and folder names to your object data file?:Yes
+    Select the measurements to export:Yes
+    Calculate the per-image mean values for object measurements?:No
+    Calculate the per-image median values for object measurements?:No
+    Calculate the per-image standard deviation values for object measurements?:No
+    Output file location:Default Input Folder sub-folder|OneDrive\\Escritorio\\Sample_CP
+    Create a GenePattern GCT file?:No
+    Select source of sample row name:Metadata
+    Select the image to use as the identifier:None
+    Select the metadata to use as the identifier:None
+    Export all measurement types?:Yes
+    Press button to select measurements:GFP_cells|Location_Center_Z,GFP_cells|Location_Center_X,GFP_cells|Location_Center_Y,GFP_cells|Location_CenterMassIntensity_Z_GFP,GFP_cells|Location_CenterMassIntensity_Z_Sensor,GFP_cells|Location_CenterMassIntensity_Y_GFP,GFP_cells|Location_CenterMassIntensity_Y_Sensor,GFP_cells|Location_CenterMassIntensity_X_Sensor,GFP_cells|Location_CenterMassIntensity_X_GFP,GFP_cells|Location_MaxIntensity_Y_GFP,GFP_cells|Location_MaxIntensity_Y_Sensor,GFP_cells|Location_MaxIntensity_Z_GFP,GFP_cells|Location_MaxIntensity_Z_Sensor,GFP_cells|Location_MaxIntensity_X_Sensor,GFP_cells|Location_MaxIntensity_X_GFP,GFP_cells|Intensity_MeanIntensityEdge_GFP,GFP_cells|Intensity_MeanIntensityEdge_Sensor,GFP_cells|Intensity_MassDisplacement_GFP,GFP_cells|Intensity_MassDisplacement_Sensor,GFP_cells|Intensity_UpperQuartileIntensity_Sensor,GFP_cells|Intensity_UpperQuartileIntensity_GFP,GFP_cells|Intensity_StdIntensityEdge_GFP,GFP_cells|Intensity_StdIntensityEdge_Sensor,GFP_cells|Intensity_MedianIntensity_Sensor,GFP_cells|Intensity_MedianIntensity_GFP,GFP_cells|Intensity_MinIntensityEdge_Sensor,GFP_cells|Intensity_MinIntensityEdge_GFP,GFP_cells|Intensity_MaxIntensity_Sensor,GFP_cells|Intensity_MaxIntensity_GFP,GFP_cells|Intensity_MinIntensity_GFP,GFP_cells|Intensity_MinIntensity_Sensor,GFP_cells|Intensity_LowerQuartileIntensity_GFP,GFP_cells|Intensity_LowerQuartileIntensity_Sensor,GFP_cells|Intensity_MADIntensity_Sensor,GFP_cells|Intensity_MADIntensity_GFP,GFP_cells|Intensity_MeanIntensity_Sensor,GFP_cells|Intensity_MeanIntensity_GFP,GFP_cells|Intensity_IntegratedIntensity_Sensor,GFP_cells|Intensity_IntegratedIntensity_GFP,GFP_cells|Intensity_StdIntensity_Sensor,GFP_cells|Intensity_StdIntensity_GFP,GFP_cells|Intensity_IntegratedIntensityEdge_Sensor,GFP_cells|Intensity_IntegratedIntensityEdge_GFP,GFP_cells|Intensity_MaxIntensityEdge_GFP,GFP_cells|Intensity_MaxIntensityEdge_Sensor,GFP_cells|Number_Object_Number,Image|Threshold_GuideThreshold_GFP_cells,Image|Threshold_WeightedVariance_GFP_cells,Image|Threshold_FinalThreshold_GFP_cells,Image|Threshold_SumOfEntropies_GFP_cells,Image|Threshold_OrigThreshold_GFP_cells,Image|URL_Sensor,Image|URL_GFP,Image|ExecutionTime_03NamesAndTypes,Image|ExecutionTime_02Metadata,Image|ExecutionTime_05ImageMath,Image|ExecutionTime_07MeasureObjectIntensity,Image|ExecutionTime_01Images,Image|ExecutionTime_06IdentifyPrimaryObjects,Image|ExecutionTime_04Groups,Image|PathName_GFP,Image|PathName_Sensor,Image|FileName_Sensor,Image|FileName_GFP,Image|Width_Sensor,Image|Width_GFP,Image|Scaling_Sensor,Image|Scaling_GFP,Image|Metadata_Well,Image|Metadata_Time,Image|Metadata_Frame,Image|Metadata_WellColumn,Image|Metadata_ChannelNumber,Image|Metadata_WellRow,Image|Metadata_Site,Image|Metadata_FileLocation,Image|Metadata_Series,Image|Metadata_Plane,Image|Series_Sensor,Image|Series_GFP,Image|Group_Number,Image|Group_Index,Image|Height_Sensor,Image|Height_GFP,Image|ModuleError_07MeasureObjectIntensity,Image|ModuleError_06IdentifyPrimaryObjects,Image|ModuleError_01Images,Image|ModuleError_05ImageMath,Image|ModuleError_04Groups,Image|ModuleError_03NamesAndTypes,Image|ModuleError_02Metadata,Image|Count_GFP_cells,Image|MD5Digest_GFP,Image|MD5Digest_Sensor,Image|Frame_Sensor,Image|Frame_GFP,Experiment|CellProfiler_Version,Experiment|Pipeline_Pipeline,Experiment|Run_Timestamp,Experiment|Modification_Timestamp
+    Representation of Nan/Inf:NaN
+    Add a prefix to file names?:Yes
+    Filename prefix:G6PDi
+    Overwrite existing files without warning?:No
+    Data to export:Do not use
+    Combine these object measurements with those of the previous object?:No
+    File name:DATA.csv
+    Use the object name for the file name?:Yes
+"
+Run_Timestamp	2022-09-28T01:38:53.576229
